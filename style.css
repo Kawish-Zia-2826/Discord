@@ -18,10 +18,10 @@ body{
 } */
 /* small and medium both screens */
 @media only screen and (max-width:767px) {
-    body{
+/*     body{
         background-color: gold;
         color: white;
-    }
+    } */
     .section-container .row{
         display: flex !important;
         flex-direction: column-reverse !important;
@@ -50,10 +50,10 @@ body{
 
 /* for medium devices */
 @media only screen and (min-width:768px) and (max-width: 991px) {
-    body{
+/*     body{
         background-color: blue;
         color: red  ;
-    } 
+    }  */
   .section-container .row{
         display: flex;
         flex-direction: column-reverse;
@@ -75,10 +75,10 @@ body{
 
 /* for large device  */
 @media only screen and (min-width: 992px) {
-    body{
+/*     body{
         background-color: cyan;
          color: bisque;
-    }
+    } */
 } 
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
@@ -91,6 +91,7 @@ body{
     background-image: url(./img/bgImg.png);
     background-repeat: no-repeat;
     background-size: cover;
+    color:white;
 
 }
 
